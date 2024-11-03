@@ -6,9 +6,9 @@ DFS와 BFS를 구현할 수 있는지 대놓고 물어보는 문제
 
 ## 2. 손으로 풀어보기 
 
-![image](../../image/day8/4번_001.png)
+![image](../../image/day8/26번_001.png)
 
-![image](../../image/day8/4번_002.png)
+![image](../../image/day8/26번_002.png)
 
 ## 3. 슈도코드 
 
@@ -87,4 +87,4 @@ BFS(Start) 실행
 
 ```
 
-[코드](../../code/폴더/파일이름.py)
+[코드](../../code/day8/26_DFS와BFS프로그램.py)
