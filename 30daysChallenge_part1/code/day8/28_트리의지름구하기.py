@@ -10,15 +10,16 @@ for _ in range(N) :
     
     index = 0
     
-    S = Data[index]
+    S = Data[index] # 정점 
+    index += 1
     
     while True : 
-        E = Data[index]
+        E = Data[index] # 이웃노드 
         
         if E == -1 : 
             break
         
-        V = Data[index + 1]
+        V = Data[index + 1] # 가중치 
         
         A[S].append((E, V))
         
