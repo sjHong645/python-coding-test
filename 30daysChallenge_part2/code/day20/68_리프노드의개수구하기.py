@@ -22,6 +22,9 @@ def DFS(number) :
     child_node = 0
     
     for i in tree[number] : 
+        
+        # 아직 방문하지 않았고 삭제 대상 노드가 아닐 경우에만 
+        # 자식노드에 대한 탐색 지속
         if not visited[i] and i != deleteNode : 
             child_node += 1
             DFS(i)
