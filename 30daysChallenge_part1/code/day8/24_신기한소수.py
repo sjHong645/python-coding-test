@@ -1,9 +1,3 @@
-# https://www.acmicpc.net/problem/2023
-
-import sys
-
-input = sys.stdin.readline
-
 N = int(input()) 
 
 def isPrime(n) : 
