@@ -1,11 +1,11 @@
 from collections import deque
 
 # (dx[0], dy[0]) = 위쪽으로 1칸
-# (dx[1], dy[1]) = 오른쪽으로 1칸
-# (dx[2], dy[2]) = 아래쪽으로 1칸
-# (dx[3], dy[3]) = 왼쪽으로 1칸
-dx = [0, 1, 0, -1]
-dy = [1, 0, -1, 0]
+# (dx[1], dy[1]) = 아래쪽으로 1칸
+# (dx[2], dy[2]) = 왼쪽으로 1칸
+# (dx[3], dy[3]) = 오른쪽으로 1칸
+dx = [0, 0, -1, 1]
+dy = [-1, 1, 0, 0]
 
 # N : row, M : column
 N, M = map(int, input().split())
