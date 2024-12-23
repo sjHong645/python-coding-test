@@ -1,6 +1,3 @@
-import sys
-input = sys.stdin.readline 
-
 N = int(input()) # 데이터 개수 
 Result = 0 # 좋은 수의 개수를 저장하는 변수 
 
