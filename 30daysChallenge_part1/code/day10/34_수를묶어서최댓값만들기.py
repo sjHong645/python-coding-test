@@ -38,7 +38,7 @@ while minusPq.qsize() > 1 :
     
 if minusPq.qsize() > 0 : 
     if zero == 0 : 
-        sum += minusPq.get() * -1
+        sum += minusPq.get()
         
 sum += one
 
