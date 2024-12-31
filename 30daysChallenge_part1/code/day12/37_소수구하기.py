@@ -14,7 +14,7 @@ for i in range(2, int(math.sqrt(N)) + 1) : # 제곱근까지만 수행
     if A[i] == 0 : 
         continue
 
-    for j in range(i+1, N+1, i) : # 소수의 배수는 소수가 아니기 때문에 지운다
+    for j in range(i+i, N+1, i) : # 소수의 배수는 소수가 아니기 때문에 지운다
         A[j] = 0
 
 # M ~ N 범위에서 소수값 출력 
